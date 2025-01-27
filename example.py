@@ -14,5 +14,14 @@ x = np.linspace(0,10,1000)
 y = sin(x)
 
 #save plot and the numpy file
+plt.plot(x,y)
+plt.title("sin function")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
+
+print(x)
+np.save(y,"y.npy")
+np.save(x,"x.npy")
 
 
