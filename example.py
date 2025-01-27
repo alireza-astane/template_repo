@@ -18,10 +18,12 @@ plt.plot(x,y)
 plt.title("sin function")
 plt.xlabel("x")
 plt.ylabel("y")
+plt.savefig("sinPlot.png")
 plt.show()
 
 print(x)
 np.save("y.npy",y)
 np.save("x.npy",x)
+
 
 
