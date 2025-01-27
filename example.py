@@ -14,6 +14,9 @@ x = np.linspace(0,10,1000)
 y = sin(x)
 
 
+# temp code
+a = 2 +2 
+print(a)
 
 #save plot and the numpy file
 
