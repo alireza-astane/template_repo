@@ -10,7 +10,8 @@ def sin(x):
 
 
 # create plot
-
+x = np.linspace(0,10,1000)
+y = sin(x)
 
 
 
