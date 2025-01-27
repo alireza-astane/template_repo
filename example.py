@@ -21,7 +21,7 @@ plt.ylabel("y")
 plt.show()
 
 print(x)
-np.save(y,"y.npy")
-np.save(x,"x.npy")
+np.save("y.npy",y)
+np.save("x.npy",x)
 
 
